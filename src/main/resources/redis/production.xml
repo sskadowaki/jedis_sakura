@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<middleware>
+	<redis>
+		<redisPoolConfig>
+			<maxIdle>300</maxIdle>
+			<maxWait>-1</maxWait>
+			<maxActive>-1</maxActive>
+		</redisPoolConfig>
+		<redisPool>
+			<host>192.168.3.38</host>
+			<port>5000</port>
+			<timeout>1800</timeout>
+		</redisPool>
+	</redis>
+</middleware>

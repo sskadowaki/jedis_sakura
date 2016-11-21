@@ -41,7 +41,7 @@ public class RedisDigester {
 		di.addRule("middleware/redis/redisPool/timeout", new BeanPropertySetterRule("timeout"));
 		
 		try {
-			this.middlewareDto = di.parse(new File("/Users/potakong/Documents/workspace/jedis_sakura/src/test/resources/redis/test.xml"));
+			this.middlewareDto = di.parse(new File("C:/Users/t.kadowaki/workspace_mars/jedis_sakura/src/test/resources/redis/test.xml"));
 		} catch (IOException | SAXException e) {
 			e.printStackTrace();
 			throw new RuntimeException(getClass().getSimpleName(), e.getCause());

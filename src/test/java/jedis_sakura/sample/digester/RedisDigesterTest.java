@@ -19,7 +19,7 @@ public class RedisDigesterTest {
 		assertThat(rd.getRedisConfig().getRcp(), not(nullValue()));
 		assertThat(rd.getRedisConfig().getRp(), not(nullValue()));
 		
-		assertThat(rd.getRedisConfig().getRcp().getMaxWait(), is(-1));
+		assertThat(rd.getRedisConfig().getRcp().getMaxWait(), is(-1L));
 		assertThat(rd.getRedisConfig().getRp().getHost(), is("127.0.0.1"));
 	}
 
